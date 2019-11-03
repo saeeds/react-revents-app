@@ -3,7 +3,15 @@ import { Segment, Item, Icon, List, Button } from "semantic-ui-react";
 import EventListAttendee from "../event-list-attendee/event-list-attendee.component";
 class EventListItem extends Component {
   render() {
-    const { hostPhotoURL, title, hostedBy, date, venue,description,attendees } = this.props.event;
+    const {
+      hostPhotoURL,
+      title,
+      hostedBy,
+      date,
+      venue,
+      description,
+      attendees
+    } = this.props.event;
 
     return (
       <Segment.Group>
@@ -12,10 +20,8 @@ class EventListItem extends Component {
             <Item>
               <Item.Image size='tiny' circular src={hostPhotoURL} />
               <Item.Content>
-                <Item.Header as='a'>{title}</Item.Header>
-                <Item.Description>
-                  Hosted by <a>{hostedBy}</a>
-                </Item.Description>
+                <Item.Header>{title}</Item.Header>
+                <Item.Description>Hosted by {hostedBy}</Item.Description>
               </Item.Content>
             </Item>
           </Item.Group>
@@ -28,11 +34,10 @@ class EventListItem extends Component {
         </Segment>
         <Segment secondary>
           <List horizontal>
-            {
+            {attendees &&
               attendees.map(attendee => (
-                <EventListAttendee key={attendee.id} attendee={attendee}/>
-              ))
-            }
+                <EventListAttendee key={attendee.id} attendee={attendee} />
+              ))}
           </List>
         </Segment>
         <Segment clearing>
