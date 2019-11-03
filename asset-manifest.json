@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-revents-app/static/css/main.07a37c65.chunk.css",
-    "main.js": "/react-revents-app/static/js/main.1bbb132e.chunk.js",
-    "main.js.map": "/react-revents-app/static/js/main.1bbb132e.chunk.js.map",
+    "main.js": "/react-revents-app/static/js/main.ce34cc97.chunk.js",
+    "main.js.map": "/react-revents-app/static/js/main.ce34cc97.chunk.js.map",
     "runtime-main.js": "/react-revents-app/static/js/runtime-main.0f0e2e9e.js",
     "runtime-main.js.map": "/react-revents-app/static/js/runtime-main.0f0e2e9e.js.map",
-    "static/js/2.0cffef0f.chunk.js": "/react-revents-app/static/js/2.0cffef0f.chunk.js",
-    "static/js/2.0cffef0f.chunk.js.map": "/react-revents-app/static/js/2.0cffef0f.chunk.js.map",
+    "static/js/2.a9e85eea.chunk.js": "/react-revents-app/static/js/2.a9e85eea.chunk.js",
+    "static/js/2.a9e85eea.chunk.js.map": "/react-revents-app/static/js/2.a9e85eea.chunk.js.map",
     "index.html": "/react-revents-app/index.html",
-    "precache-manifest.e3d7e27606cf61d8dd43019d290cf528.js": "/react-revents-app/precache-manifest.e3d7e27606cf61d8dd43019d290cf528.js",
+    "precache-manifest.5e113d07e6009b8e522ae562f885ce0e.js": "/react-revents-app/precache-manifest.5e113d07e6009b8e522ae562f885ce0e.js",
     "service-worker.js": "/react-revents-app/service-worker.js",
     "static/css/main.07a37c65.chunk.css.map": "/react-revents-app/static/css/main.07a37c65.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.0f0e2e9e.js",
-    "static/js/2.0cffef0f.chunk.js",
+    "static/js/2.a9e85eea.chunk.js",
     "static/css/main.07a37c65.chunk.css",
-    "static/js/main.1bbb132e.chunk.js"
+    "static/js/main.ce34cc97.chunk.js"
   ]
 }
